@@ -2,7 +2,7 @@
 
 This server implements a high-performance Key-Value (KV) store using C++. It integrates a RESTful interface, a thread-safe LRU Cache, and a concurrent PostgreSQL Connection Pool for persistent storage.
 
-## Features
+## Features Added 
 
 * **HTTP API:** Standard endpoints for PUT, GET, and DELETE operations.
 * **Caching:** Uses a thread-safe **LRU Cache** for fast in-memory lookups (Capacity: 5000).
