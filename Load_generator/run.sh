@@ -12,7 +12,7 @@ echo "vus,tps,avg,p50,p90,p95,p99,core1_cpu_max,disk_util_max" > results.csv
 
 for VUS in 1 5 10 20 30 50 75 100 150 200
 do
-    echo "Running test with $VUS VUs..."
+    echo "Running test with $VUS VUs.."
 
     mpstat -P 1 1 > core1.log &
     MPSTAT_PID=$!
